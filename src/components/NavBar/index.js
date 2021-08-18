@@ -11,6 +11,7 @@ import Box from '@material-ui/core/Box';
 import AboutMe from '../AboutMe';
 import Portfolio from '../Portfolio';
 import Form from '../ContactForm';
+import ResumeComp from '../Resume';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -62,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
         backgroundColor: theme.palette.background.paper,
     },
-    
+
 }));
 
 export default function NavBar() {
@@ -108,6 +109,8 @@ export default function NavBar() {
 
 
             <TabPanel value={value} index={3}>
+
+                <ResumeComp />
 
             </TabPanel>
 
