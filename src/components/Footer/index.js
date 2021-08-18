@@ -13,18 +13,14 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 export default function Footer() {
     return (
         <footer>
-            <Box>
-                <Box padding="0"            >
-                    <Container maxWidth="lg" position="relative">
-                        <Box display="inline-flex" textAlign="center">
-                            <IconButton><GitHubIcon /></IconButton>
-                            <IconButton><LinkedInIcon /></IconButton>
-                            <IconButton><InstagramIcon /></IconButton>
-                        </Box>
-                        <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 5, sm: 0 }}>
-                            Nathan Dias Vieira da Silva &reg; {new Date().getFullYear()}
-                        </Box>
-                    </Container>
+            <Box className="footerWrap" display="block"           >
+                <Box display="flex" className="iconsWrap">                    
+                    <IconButton href="https://github.com/PacSmack" target="_blank"><GitHubIcon /></IconButton>
+                    <IconButton href="https://www.linkedin.com/in/nathan-dias-silva/" target="_blank"><LinkedInIcon /></IconButton>
+                    <IconButton href="https://www.instagram.com/nathandbrs/" target="_blank"><InstagramIcon /></IconButton>                   
+                </Box>
+                <Box textAlign="center" >
+                    Nathan Dias Vieira da Silva &reg; {new Date().getFullYear()}
                 </Box>
             </Box>
         </footer>

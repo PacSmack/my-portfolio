@@ -89,3 +89,18 @@ footer {
   width: 100%;
   text-align: -webkit-center;
 }
+
+.footerWrap {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.iconsWrap {
+  justify-content: space-around;
+}
