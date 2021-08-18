@@ -26,6 +26,12 @@ code {
   margin-bottom: 100%;
 }
 
+#disabled-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 .avatarImgWrap {
   position: relative;
 }
