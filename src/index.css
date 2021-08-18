@@ -3,6 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow: hidden;
 }
 
 code {
@@ -15,6 +17,15 @@ code {
 
 .MuiInputBase-root {
   width: 60%;
+}
+
+footer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 .avatarImg {

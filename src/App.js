@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 
 // components
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
     <Container>
       <NavBar />
 
-    
+      <Footer />
     </Container>
+
   );
 }
 
