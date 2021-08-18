@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box';
 // import other components
 import AboutMe from '../AboutMe';
 import Portfolio from '../Portfolio';
+import Form from '../ContactForm';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -97,11 +98,16 @@ export default function NavBar() {
                 <Portfolio />
                 
             </TabPanel>
+
             <TabPanel value={value} index={2}>
-                Page Three
+
+                <Form />
+
             </TabPanel>
+
+
             <TabPanel value={value} index={3}>
-                Page Four
+                
             </TabPanel>
 
 
