@@ -62,6 +62,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
         backgroundColor: theme.palette.background.paper,
     },
+    
 }));
 
 export default function NavBar() {
@@ -94,20 +95,20 @@ export default function NavBar() {
 
             </TabPanel>
             <TabPanel value={value} index={1}>
-                
+
                 <Portfolio />
-                
+
             </TabPanel>
 
             <TabPanel value={value} index={2}>
-
-                <Form />
-
+                <Box className='centerForm'>
+                    <Form />
+                </Box>
             </TabPanel>
 
 
             <TabPanel value={value} index={3}>
-                
+
             </TabPanel>
 
 

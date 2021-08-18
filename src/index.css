@@ -13,7 +13,6 @@ code {
   max-width: fit-content;
 }
 
-
 .MuiInputBase-root {
   width: 60%;
 }
@@ -73,4 +72,9 @@ code {
 
 .formWrapper {
   text-align: center;
+}
+
+.centerForm {
+  width: 100%;
+  text-align: -webkit-center;
 }

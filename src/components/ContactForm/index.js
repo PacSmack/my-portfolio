@@ -23,12 +23,13 @@ export default function Form() {
                 '& > :not(style)': { m: 1 },
             }}
             autoComplete="off"
-            className="contactForm" 
+            className="contactForm"
             display="block"
             overflow="hidden"
             name="contactForm"
             width="60%"
             textAlign="center"
+
         >
 
 
@@ -45,7 +46,8 @@ export default function Form() {
                     placeholder="email"
                     name="email"
                     type="email"
-                    id="email"                    
+                    id="email"
+
                 />
             </Box>
             <Box m={2}>
@@ -58,7 +60,7 @@ export default function Form() {
                     variant="outlined"
                     name="Name"
                     type="Name"
-                    id="Name"                    
+                    id="Name"
                 />
             </Box>
             <Box m={2}>
@@ -66,6 +68,8 @@ export default function Form() {
                 <TextField
                     required
                     fullWidth
+                    multiline
+                    rows={5}
                     id="outlined-basic"
                     label="Message"
                     variant="outlined"
@@ -74,7 +78,7 @@ export default function Form() {
                     id="pwd"
                 />
             </Box>
-        
+
             <Box>
                 <Button
                     className="contactFormBtn"
