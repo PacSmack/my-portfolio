@@ -25,23 +25,53 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const itemData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
+// screenshots import
+import uSing from "../../assets/images/0.png"
+import artinerary from "../../assets/images/1.png"
+import theTechBlog from "../../assets/images/2.png"
+import budgetTracker from "../../assets/images/3.png"
+import brazilianQuiz from "../../assets/images/4.png"
+import noteTaker from "../../assets/images/5.png"
+
+
+//  * The example data is structured as follows:
+//  *
+//  * import image from 'path/to/image.jpg';
+//  * [etc...]
+//  *
+const itemData = [
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    },
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    },
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    },
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    },
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    },
+    {
+        img: image,
+        title: 'Image',
+        author: 'author',
+    }
+];
+
 export default function Portfolio() {
     const classes = useStyles();
 
